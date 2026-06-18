@@ -54,9 +54,3 @@ def load_data():
     return X, y, iris.target_names
 
 X, y, target_names = load_data()
-
-!pip install pandas
-
-!pip install scikit-learn
-
-!pip install streamlit
